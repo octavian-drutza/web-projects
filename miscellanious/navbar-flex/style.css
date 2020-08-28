@@ -1,0 +1,39 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #95a5a6;
+  font-family: "Lato";
+  margin: 10px;
+  transition: color 0.5s ease-out;
+}
+
+nav a:hover {
+  opacity: 0.5;
+  color: blue;
+}
+
+nav i {
+  margin: 5px;
+}
+
+@media screen and (max-width: 920px) {
+  nav {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
