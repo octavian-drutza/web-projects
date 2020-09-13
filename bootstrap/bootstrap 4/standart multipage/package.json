@@ -11,5 +11,13 @@
     "url": "https://github.com/octavian-drutza/web-projects/tree/master/bootstrap/bootstrap%204/standart%20multipage"
   },
   "author": "O.Drutza",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@popperjs/core": "^2.4.4",
+    "bootstrap": "^4.5.2",
+    "handlebars": "^4.7.6",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
 }
